@@ -14,6 +14,7 @@ const ModalProvider = () => {
   if (!ismounted) {
     return null;
   }
+
   return (
     <>
       <PreviewModal />
